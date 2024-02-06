@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout2</title>
+    <style>
+        body {background: #b3e5fc;}
+        #wrap{width: 1000px; height: 900px; margin: 0 auto; font-size: 40px; color: #fff; text-align: center; text-transform: uppercase;}
+        #header{width: 1000px; height: 100px; line-height: 100px; background-color: #0277bd;}
+        #nav{width: 1000px; height: 100px; line-height: 100px; background-color: #0288d1;}
+        #side_left{float: left; width: 300px; height: 600px; line-height: 600px; background-color: #039be5;}
+        #contents{float: left; width: 400px; height: 600px; line-height: 600px;  background-color: #03a9f4;}
+        #side_right{float: left; width: 300px; height: 600px; line-height: 600px;  background-color: #29b6f6;}
+        #footer{clear: both; width: 1000px; height: 100px; line-height: 100px; background-color: #0288d1;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">nav</div>
+        <div id="side_left">side_left</div>
+        <div id="contents">contents</div>
+        <div id="side_right">side_right</div>
+        <div id="footer">footer</div>
+    </div>
+
+    <ul>
+        <li>clear 속성을 사용해 float 속성 해제</li>
+        <li>clear: both; 오른쪽/왼쪽 취소 / 가장 많이 사용</li>
+        <li>clear: left; 왼쪽 취소</li>
+        <li>clear: right: 오른쪽 취소</li>
+        <li>clear: none; 기초 값을 clear값을 설정하지 않은 것과 같음</li>
+    </ul>
+</body>
+</html>
